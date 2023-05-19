@@ -1,6 +1,7 @@
 import "./navbar.css"
 import { Link } from 'react-router-dom';
 import {FaBars} from 'react-icons/fa'
+import ButtonComponent from "../ButtonComponent/ButtonComponent";
 const Navbar = () => {
   return (
    <div className="navbar-wrapper">
@@ -15,6 +16,9 @@ const Navbar = () => {
               <Link to="services" className="nav_links">Services</Link>
               <Link to="discover" className="nav_links">Discover</Link>
               <Link to="signup" className="nav_links">Sign Up</Link>
+            </div>
+            <div className="btn-container">
+              <ButtonComponent width="80px" children="Sign In"/>
             </div>
           </div>
       </div>
