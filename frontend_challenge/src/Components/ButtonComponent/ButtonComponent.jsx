@@ -1,6 +1,6 @@
 import "./buttoncomponent.css"
 
-const ButtonComponent = ({color="green",size="1rem",width="300px",children,onClick}) => {
+const ButtonComponent = ({color="green",size="1rem",width="80px",children,onClick}) => {
   const styles = {
     backgroundColor: color,
     fontSize: size,
