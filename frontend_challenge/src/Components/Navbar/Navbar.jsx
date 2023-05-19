@@ -19,7 +19,7 @@ const Navbar = ({toggle}) => {
               <LinkRoute to="signup" className="nav_links">Sign Up</LinkRoute>
             </div>
             <div className="btn-container">
-              <ButtonComponent width="80px" children="Sign In"/>
+              <ButtonComponent width="90px" children="Sign In"/>
             </div>
           </div>
       </div>

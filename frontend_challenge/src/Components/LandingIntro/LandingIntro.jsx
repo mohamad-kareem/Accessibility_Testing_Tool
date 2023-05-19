@@ -8,6 +8,11 @@ const LandingIntro = () => {
                 <video src={Video} autoPlay loop muted></video>
             </div>
         </div>
+        <div className="intro-content">
+        <h1>Website<br></br>Optimization</h1>
+        <p>"Ensure your website's accessibility with
+          <br/> our comprehensive testing tool ."</p>
+        </div>
       
     </div>
   )
