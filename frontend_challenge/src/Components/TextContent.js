@@ -15,4 +15,11 @@ const section3 = {
     description:'Ensuring that links and buttons are easily accessible and usable for all users, including those who rely on keyboard navigation or assistive technologies, is crucial for web accessibility.',
     alt:'lady surrounded by social media icons (connections)'
 }
-export {section1,section2,section3}
+const section4 = {
+    coding:'Coding',
+    target:'Target',
+    semantics:'Semantics',
+    palette:'Palette',
+    test:'Test'
+}
+export {section1,section2,section3,section4}
