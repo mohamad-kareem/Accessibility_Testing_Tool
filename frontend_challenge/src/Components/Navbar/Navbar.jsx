@@ -1,6 +1,6 @@
 import "./navbar.css"
 import { Link as LinkRoute} from 'react-router-dom';
-import { Link as LinkScroll} from 'react-router-dom';
+import { Link as LinkScroll} from 'react-scroll';
 import {FaBars} from 'react-icons/fa'
 import ButtonComponent from "../ButtonComponent/ButtonComponent";
 const Navbar = ({toggle}) => {
@@ -13,9 +13,9 @@ const Navbar = ({toggle}) => {
           </div>
           <div className="nav_menu">
             <div className="nav_items">
-              <LinkScroll to="about" className="nav_links">About</LinkScroll>
-              <LinkScroll to="services" className="nav_links">Services</LinkScroll>
-              <LinkScroll to="discover" className="nav_links">Discover</LinkScroll>
+              <LinkScroll to="colors" smooth={true} duration={500} spy={true} exact='true' offset={-80} className="nav_links">Colors</LinkScroll>
+              <LinkScroll to="semantics" smooth={true} duration={500} spy={true} exact='true' offset={-80} className="nav_links">Semantics</LinkScroll>
+              <LinkScroll to="Headers" smooth={true} duration={500} spy={true} exact='true' offset={-80} className="nav_links">Headers</LinkScroll>
               <LinkRoute to="signup" className="nav_links">Sign Up</LinkRoute>
             </div>
             <div className="btn-container">

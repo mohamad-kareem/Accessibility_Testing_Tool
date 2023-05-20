@@ -9,4 +9,10 @@ const section2 = {
     description:'The proper use of heading tags (h1, h2 ..) is essential for creating accessible websites. These tags provide a hierarchical structure to the content, helping users navigate and understand the information more easily.',
     alt:'Lady correcting paragrapgh structure'
 }
-export {section1,section2}
+
+const section3 = {
+    title:'Focus and Keyboard Accessibility',
+    description:'Ensuring that links and buttons are easily accessible and usable for all users, including those who rely on keyboard navigation or assistive technologies, is crucial for web accessibility.',
+    alt:'lady surrounded by social media icons (connections)'
+}
+export {section1,section2,section3}
