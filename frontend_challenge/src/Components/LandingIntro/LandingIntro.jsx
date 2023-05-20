@@ -1,7 +1,15 @@
 import "./landingintro.css"
 import Video from '../../assets/pexels-pressmaster-3130284-1280x720-30fps.mp4'
 import ButtonComponent from "../ButtonComponent/ButtonComponent"
+import { useNavigate } from 'react-router-dom';
 const LandingIntro = () => {
+
+  const navigate = useNavigate();
+
+  const handleButtonClick = () => {
+    navigate('/testPage');
+  };
+
   return (
     <div className='intro-container'>
         <div className="intro-video">
@@ -10,7 +18,7 @@ const LandingIntro = () => {
             </div>
         </div>
         <div className="intro-content">
-        <h1>Website<br></br>Optimization  <span><ButtonComponent children='Get Started' width="120px"/></span></h1>
+        <h1>Website<br></br>Optimization  <span><ButtonComponent children='Get Started' width="120px" onClick={handleButtonClick}/></span></h1>
         <p>"Ensure your website's accessibility with
           <br/> our comprehensive testing tool ."</p>
         </div>
