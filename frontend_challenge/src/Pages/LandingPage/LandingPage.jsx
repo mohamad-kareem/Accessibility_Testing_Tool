@@ -4,6 +4,7 @@ import SideBar from "../../Components/SideBar/SideBar"
 import Section1 from "../../Components/Section1/Section1"
 import "./landingpage.css"
 import { useState } from "react"
+import Section2 from "../../Components/Section2/Section2"
 const LandingPage = () => {
   const [isOpen,setIsOpen]=useState(false)
 
@@ -16,6 +17,7 @@ const LandingPage = () => {
       <SideBar isOpen={isOpen} toggle={toggle}/>
       <LandingIntro/>
       <Section1/>
+      <Section2/>
     </div>
   )
 }

@@ -1,6 +1,7 @@
-.info-wrapper-1{
-    background: #fff;
+.info-wrapper-2{
+    background: #000;
 }
+
 @media screen and (max-width:768px) {
     .info-wrapper{
         padding: 100px 0;
@@ -8,6 +9,7 @@
 }
 .info-container{
     display: flex;
+    justify-content: space-between;
     z-index: 1;
     height: 700px;
     width: 100%;
@@ -27,14 +29,17 @@
     }
     .info-image img{
         width: fit-content;
-        margin-bottom: 180px;
     }
-}
-.info-image img{
-    width: 700px;
-    height: 600px;
 }
 .text-content{
  margin-top: 80px;
- color: #000;
+}
+.text-sec2 h1{
+    color: #fff;
+}
+.info-image-2 img{
+    width: 680px;
+    height: 400px;
+    margin-top: 40px;
+    
 }

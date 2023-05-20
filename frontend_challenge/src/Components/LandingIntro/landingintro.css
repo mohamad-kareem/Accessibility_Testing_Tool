@@ -47,12 +47,12 @@
 }
 .intro-content h1{
     color: #fff;
-    font-size: 35px;
+    font-size: 40px;
   
 }
 @media screen and (max-width:768px) {
     .intro-content h1{
-        font-size: 40px;
+        font-size: 35px;
      }   
  }
  @media screen and (max-width:480px) {
