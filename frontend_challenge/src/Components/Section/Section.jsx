@@ -1,8 +1,8 @@
-import "./section1.css"
+import "./section.css"
 import image1 from "../../assets/img1.svg"
 import {section1} from "../TextContent"
 import ButtonComponent from "../ButtonComponent/ButtonComponent"
-const Section1 = () => {
+const Section = () => {
   return (
 <div className='info-wrapper-1' id="colors">
         <div className="info-container">
@@ -21,4 +21,4 @@ const Section1 = () => {
   )
 }
 
-export default Section1
+export default Section

@@ -15,7 +15,7 @@ const Navbar = ({toggle}) => {
             <div className="nav_items">
               <LinkScroll to="colors" smooth={true} duration={500} spy={true} exact='true' offset={-80} className="nav_links">Colors</LinkScroll>
               <LinkScroll to="semantics" smooth={true} duration={500} spy={true} exact='true' offset={-80} className="nav_links">Semantics</LinkScroll>
-              <LinkScroll to="Headers" smooth={true} duration={500} spy={true} exact='true' offset={-80} className="nav_links">Headers</LinkScroll>
+              <LinkScroll to="Focusing" smooth={true} duration={500} spy={true} exact='true' offset={-80} className="nav_links">Focusing</LinkScroll>
               <LinkRoute to="signup" className="nav_links">Sign Up</LinkRoute>
             </div>
             <div className="btn-container">

@@ -78,6 +78,9 @@
         border-bottom: 3px solid green;
     }
 }
+.nav_links:hover{
+    color: #01bf71;
+}
 .btn-container{
     display: flex;
     align-items: center;

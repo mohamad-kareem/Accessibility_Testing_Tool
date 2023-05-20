@@ -1,9 +1,9 @@
 import LandingIntro from "../../Components/LandingIntro/LandingIntro"
 import Navbar from "../../Components/Navbar/Navbar"
-import SideBar from "../../Components/SideBar/SideBar"
-import Section1 from "../../Components/Section1/Section1"
+import DropBar from "../../Components/DropBar/DropBar"
 import "./landingpage.css"
 import { useState } from "react"
+import Section from "../../Components/Section/Section"
 import Section2 from "../../Components/Section2/Section2"
 import Section3 from "../../Components/Section3/Section3"
 const LandingPage = () => {
@@ -15,9 +15,9 @@ const LandingPage = () => {
   return (
     <div>
       <Navbar toggle={toggle}/>
-      <SideBar isOpen={isOpen} toggle={toggle}/>
+      <DropBar isOpen={isOpen} toggle={toggle}/>
       <LandingIntro/>
-      <Section1/>
+      <Section/>
       <Section2/>
       <Section3/>
     </div>
