@@ -33,7 +33,7 @@ const SideBar = () => {
           <div id="title">{section4.palette}</div>
         </NavLink>
 
-        <NavLink to="/testDemo" className="row" activeclassname="active">
+        <NavLink to="/testpage" className="row" activeclassname="active">
           <div id="icon"><img src={test} alt="test demo" /></div>
           <div id="title">{section4.test}</div>
         </NavLink>

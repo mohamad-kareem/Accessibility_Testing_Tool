@@ -1,12 +1,14 @@
 .top-section{
-    -webkit-box-shadow: 2px 4px 10px 1px rgba(2, 2, 2, 0.47);
-    box-shadow: 2px 4px 10px 1px rgba(87, 82, 82, 0.47);
+    background:green;
+    box-shadow: 2px 4px 10px 5px rgba(0, 0, 0, 0.47);
     display: flex;
     justify-content: space-between;
     align-items: center;
     text-align: center;
     padding: 10px;
     margin: 10px;
+    font-size: 8px;
+    border-radius: 10px;
 }
 .top-name{
     color: wheat;
