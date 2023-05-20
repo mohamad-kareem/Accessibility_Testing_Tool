@@ -1,6 +1,14 @@
 import "./buttoncomponent.css"
 
 const ButtonComponent = ({color="green",size="1rem",width="80px",children,onClick}) => {
+  
+  const handleKeyDown = (event) => {
+    if (event.key === "Enter" || event.key === " ") {
+      event.preventDefault();
+      onClick();
+    }
+  };
+  
   const styles = {
     backgroundColor: color,
     fontSize: size,
@@ -13,7 +21,7 @@ const ButtonComponent = ({color="green",size="1rem",width="80px",children,onClic
   }
 
   return (
-   <button className='button' style={styles} onClick={onClick}>{children}</button>
+   <button className='button' onKeyDown={handleKeyDown} tabIndex="0" style={styles} onClick={onClick}>{children}</button>
   );
 };
 
