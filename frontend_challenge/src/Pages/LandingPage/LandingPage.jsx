@@ -1,7 +1,6 @@
 import LandingIntro from "../../Components/LandingIntro/LandingIntro"
 import Navbar from "../../Components/Navbar/Navbar"
 import DropBar from "../../Components/DropBar/DropBar"
-import "./landingpage.css"
 import { useState } from "react"
 import Section from "../../Components/Section/Section"
 import Section2 from "../../Components/Section2/Section2"

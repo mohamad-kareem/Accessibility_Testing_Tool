@@ -1,5 +1,6 @@
 import React from 'react'
-import SideBar from '../../../Components/SideBar/SideBar'
+import SideBar from '../../Components/SideBar/SideBar'
+
 
 const TestPage = () => {
   return (

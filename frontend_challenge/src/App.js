@@ -1,7 +1,7 @@
 import './App.css';
 import {BrowserRouter as Router,Routes,Route} from "react-router-dom"
-import LandingPage from './Pages/LandingPage/LandingPage';
-import TestPage from './Pages/LandingPage/TestPage/TestPage';
+import LandingPage from './pages/LandingPage/LandingPage';
+import TestPage from './pages/TestPage/TestPage';
 function App() {
   return (
     <div className="App">
