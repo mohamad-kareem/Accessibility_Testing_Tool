@@ -1,6 +1,6 @@
 import "./sidebar.css"
 import coding from "../../icons/coding.png"
-import palette from "../../icons/palette.png"
+import picture from "../../icons/picture.png"
 import semantics from "../../icons/semantic-web.png"
 import target from "../../icons/target.png"
 import test from "../../icons/test.png"
@@ -15,13 +15,13 @@ const SideBar = () => {
       <div className="SideBarList"> 
 
       <NavLink to="/CheckCode" className="row" activeClassName="active">
-          <div id="icon"><img src={coding} alt="Checking the code" /></div>
+          <div id="icon"><img src={coding} alt="code icon" /></div>
           <div id="title">{section4.coding}</div>
         </NavLink>
 
-        <NavLink to="/colors" className="row" activeclassname="active">
-          <div id="icon"><img src={target} alt="colors to use" /></div>
-          <div id="title">{section4.target}</div>
+        <NavLink to="/images" className="row" activeclassname="active">
+          <div id="icon"><img src={picture} alt="image icon" /></div>
+          <div id="title">{section4.picture}</div>
         </NavLink>
 
         <NavLink to="/semantics" className="row" activeclassname="active">
@@ -31,8 +31,8 @@ const SideBar = () => {
 
 
         <NavLink to="/focusing" className="row" activeclassname="active">
-          <div id="icon"><img src={palette} alt="Focus and Keyboard Accessibility" /></div>
-          <div id="title">{section4.palette}</div>
+          <div id="icon"><img src={target} alt="Focus and Keyboard Accessibility" /></div>
+          <div id="title">{section4.target}</div>
         </NavLink>
 
         <NavLink to="/testpage" className="row" activeclassname="active">

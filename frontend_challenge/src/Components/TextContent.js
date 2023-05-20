@@ -1,6 +1,6 @@
 const section1 = {
-    title:'Color contrast',
-    description:'Sufficient contrast between foreground and background colors enhances readability, especially for people with visual impairments. Adhering to WCAG guidelines helps create inclusive websites for all users.',
+    title:'alternative text',
+    description:'Providing descriptive alternative text (alt text) for images enhances accessibility by conveying their content, purpose, and context to users who cannot see them.',
     alt:'person looking toward a contrast web page'
 }
 
@@ -19,7 +19,7 @@ const section4 = {
     coding:'Coding',
     target:'Target',
     semantics:'Semantics',
-    palette:'Palette',
+    picture:'Picture',
     test:'Test'
 }
 export {section1,section2,section3,section4}

@@ -75,7 +75,7 @@
     cursor: pointer;
     color: #fff;
     &.active{
-        border-bottom: 3px solid green;
+        border-bottom: 3px solid white;
     }
 }
 
