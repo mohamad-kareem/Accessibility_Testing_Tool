@@ -6,9 +6,11 @@ import target from "../../icons/target.png"
 import test from "../../icons/test.png"
 import { NavLink } from 'react-router-dom';
 import { section4 } from "../TextContent"
+import Logo from "../Logo/Logo"
 const SideBar = () => {
   return (
     <div className="sidebar">
+      <Logo borderBottom="1px solid green" padding="10px"/>
      <div className="sidebar-content">
       <div className="SideBarList"> 
 

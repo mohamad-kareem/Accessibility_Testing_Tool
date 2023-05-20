@@ -3,11 +3,12 @@ import { Link as LinkRoute} from 'react-router-dom';
 import { Link as LinkScroll} from 'react-scroll';
 import {FaBars} from 'react-icons/fa'
 import ButtonComponent from "../ButtonComponent/ButtonComponent";
+import Logo from "../Logo/Logo";
 const Navbar = ({toggle}) => {
   return (
    <div className="navbar-wrapper">
       <div className="navbar_container">
-          <div className="logo">A11yMastery</div>
+          <Logo/>
           <div className="nav-icon" onClick={toggle}>
             <FaBars/>
           </div>
