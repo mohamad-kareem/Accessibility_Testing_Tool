@@ -1,15 +1,21 @@
 import "./infotable.css"
+import { useState } from "react";
 
 const InfoTable = () => {
+    const [toggleState, setToggleState] = useState(1);
+
+    const toggleTab = (index) => {
+      setToggleState(index);
+    };
   return (
   <div className="table-container">
     <div className="section-tabs">
-        <button>1</button>
-        <button>2</button>
-        <button>3</button>
+        <button className={toggleState === 1 ? "tabs active-tabs" : "tabs"} onClick={() => toggleTab(1)}>1</button>
+        <button className={toggleState === 2 ? "tabs active-tabs" : "tabs"} onClick={() => toggleTab(2)}>2</button>
+        <button className={toggleState === 3 ? "tabs active-tabs" : "tabs"} onClick={() => toggleTab(3)}>3</button>
     </div>
     <div className="table-content">
-        <div className="section-one">
+        <div className="inner-section">
             <h2></h2>
             <p></p>
         </div>

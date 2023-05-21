@@ -8,12 +8,14 @@ const HeadersPage = () => {
     <div className='header-wrapper'>
         <SideBar/>
         <div className="header-container">
-          <TopIdentifier title="Semantics"/>
-        </div>
-        <div className="buttom-header">
-         <InfoTable/>
-        </div>
-     
+            <TopIdentifier title="Semantics"/>
+            <div className="anime">
+
+            </div>
+            <div className="buttom-header">
+            <InfoTable/>
+            </div>
+       </div>
     </div>
   )
 }
