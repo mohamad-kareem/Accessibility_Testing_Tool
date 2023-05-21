@@ -21,9 +21,9 @@ const TestPage = () => {
         <div className="buttom-section">
           <div className="test-choices">
               <div className="circles-container">
-                  <Circle content="Image alternative text" onClick={() => handleCircleClick(list1)}/>
+                  <Circle content="alternative text" onClick={() => handleCircleClick(list1)}/>
                   <Circle content="Check Headers" onClick={() => handleCircleClick(list2)}/>
-                  <Circle content="Buttons and Links" onClick={() => handleCircleClick(list3)}/>
+                  <Circle content="Buttons & Links" onClick={() => handleCircleClick(list3)}/>
               </div>
               <div className="checkbox-test">
                 {selectedList && (

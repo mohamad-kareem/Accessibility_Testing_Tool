@@ -1,6 +1,6 @@
 .circle{
-    width: 200px;
-    height: 200px;
+    width: 120px;
+    height: 120px;
     background-color: transparent;
     border-radius: 50%;
     box-shadow:  1px 1px 50px 1px rgb(64, 163, 64);
@@ -10,5 +10,6 @@
 }
 .circle-text{
     text-align: center;
-    margin-top: 80px;
+    margin-top: 48px;
+    font-size: 15px;
 }

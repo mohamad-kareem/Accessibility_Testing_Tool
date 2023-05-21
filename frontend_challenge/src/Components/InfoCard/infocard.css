@@ -1,0 +1,26 @@
+.info {
+ 
+    color: #0D0D0D;
+    width: 350px;
+    margin-left: 20px;
+    height: 250px;
+    font-size: 1rem;
+    line-height: 205rem;
+    box-shadow: 10px 16px 32px 10px rgba(116, 85, 85, 0.2);
+    padding-left:10px;
+    justify-content: space-between;
+    
+  }
+  #link {
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+    gap: 1rem;
+    margin-top: 2rem;
+    color: #F2441D;
+  }
+  #link:hover { 
+    color: black;
+    transition: 0.3s;
+    font-weight: bold;
+  }

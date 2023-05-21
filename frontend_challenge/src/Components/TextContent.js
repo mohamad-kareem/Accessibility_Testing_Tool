@@ -24,7 +24,7 @@ const section4 = {
 }
 
 const list1 = {
-    title: 'Inspecting Website Accessibility for Images',
+    title: 'Website Accessibility for Images',
     items: [
         { label: 'Is the image decorative?' },
         { label: 'Is the image used as a CAPTCHA?' },
@@ -37,9 +37,9 @@ const list2 = {
     title: 'Accessibility of Links and Buttons',
     items:[
         { label: 'Can the purpose of the link or button be determined by text?' },
-        { label: 'Do links and buttons have a visible focus state?' },
-        { label: 'All links and buttons can be activated without a mouse, by keyboard alone' },
-        { label: 'Are links and buttons correctly marked up with <a>, <button> or <input> tags?' }  
+        { label: 'links and buttons have a visible focus state?' },
+        { label: 'links and buttons can be activated by keyboard alone' },
+        { label: 'links and buttons correctly marked up with <a>,<button> tags?' }  
     ]
 }
 const list3 = {
@@ -50,5 +50,9 @@ const list3 = {
         { label: 'Do the headings describe the structure of the document?' },
         { label: 'Are heading levels used in logical order' }  
     ]
+}
+
+const list4 = {
+  
 }
 export {section1,section2,section3,section4,list1,list2,list3}
