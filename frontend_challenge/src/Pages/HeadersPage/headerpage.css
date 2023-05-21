@@ -1,0 +1,7 @@
+.header-wrapper{
+    display: flex;
+}
+.header-container{
+    flex: 1;
+    height: 100vh;
+}
