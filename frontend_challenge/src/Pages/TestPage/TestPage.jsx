@@ -3,6 +3,7 @@ import SideBar from '../../Components/SideBar/SideBar'
 import TopIdentifier from '../../Components/TopIdentifier/TopIdentifier'
 import Circle from "../../Components/Circle/Circle"
 import "./testpage.css"
+import CheckList from '../../Components/CheckList/CheckList'
 const TestPage = () => {
   return (
     <div className='test-wrapper'>
@@ -15,6 +16,9 @@ const TestPage = () => {
                   <Circle content="Image alternative text"/>
                   <Circle content="Check Headers"/>
                   <Circle content="Buttons and Links"/>
+              </div>
+              <div className="checkbox-test">
+                <CheckList/>
               </div>
           </div>
         </div>
