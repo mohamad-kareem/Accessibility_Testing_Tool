@@ -10,7 +10,7 @@ const CheckList = () => {
             <div className="checkbox-row">
                 <p>Is the image decorative?</p>
                 <label >
-                    <input type="checkbox" checked="checked" />
+                    <input type="checkbox"  />
                     <span></span>
                 </label>
             </div>

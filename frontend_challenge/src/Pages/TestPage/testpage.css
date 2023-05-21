@@ -1,5 +1,6 @@
 .test-wrapper{
    display: flex;
+   overflow: hidden;
 }
 .test-container{
     flex: 1;
@@ -10,4 +11,8 @@
     justify-content: space-around;
     margin-top: 50px;
     flex-wrap: wrap;
+}
+.buttom-section{
+    height: 100vh;
+    overflow-y: scroll;
 }
