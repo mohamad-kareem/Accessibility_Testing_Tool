@@ -29,4 +29,19 @@ const list1 = [
     { label: 'Is the image of meaningful text?' },
     { label: 'Does the image convey information?' }  
   ];
-export {section1,section2,section3,section4,list1}
+
+const list2 = [
+    { label: 'Can the purpose of the link or button be determined by text?' },
+    { label: 'Do links and buttons have a visible focus state?' },
+    { label: 'All links and buttons can be activated without a mouse, by keyboard alone' },
+    { label: 'Are links and buttons correctly marked up with <a>, <button> or <input> tags?' }  
+  ];
+
+  
+const list3 = [
+    { label: 'Does the heading describe the purpose content?' },
+    { label: 'Is the heading marked up as a heading (using H1, H2 etc)?' },
+    { label: 'Do the headings describe the structure of the document?' },
+    { label: 'Are heading levels used in logical order' }  
+  ];
+export {section1,section2,section3,section4,list1,list2,list3}

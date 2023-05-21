@@ -4,7 +4,7 @@ import TopIdentifier from '../../Components/TopIdentifier/TopIdentifier'
 import Circle from "../../Components/Circle/Circle"
 import "./testpage.css"
 import CheckList from '../../Components/CheckList/CheckList'
-import { list1 } from '../../Components/TextContent'
+import { list1, list2, list3} from '../../Components/TextContent'
 const TestPage = () => {
   return (
     <div className='test-wrapper'>
@@ -19,7 +19,9 @@ const TestPage = () => {
                   <Circle content="Buttons and Links"/>
               </div>
               <div className="checkbox-test">
-                <CheckList title="Image alternative text" items={list1}/>
+                <CheckList title=" Inspecting Website Accessibility for Images" items={list1}/>
+                <CheckList title="Accessibility of Links and Buttons" items={list2}/>
+                <CheckList title=" Accessibility of Headings and Structure" items={list3}/>
               </div>
           </div>
         </div>

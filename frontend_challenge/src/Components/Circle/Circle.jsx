@@ -1,8 +1,8 @@
 import "./circle.css"
 
-const Circle = ({content}) => {
+const Circle = ({content, onClick}) => {
   return (
-    <div className='circle'>
+    <div className='circle' onClick={onClick}>
         <div className="circle-text">
         <p>{content}</p>
         </div>
