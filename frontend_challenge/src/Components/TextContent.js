@@ -22,4 +22,11 @@ const section4 = {
     picture:'Picture',
     test:'Test'
 }
-export {section1,section2,section3,section4}
+
+const list1 = [
+    { label: 'Is the image decorative?' },
+    { label: 'Is the image used as a CAPTCHA?' },
+    { label: 'Is the image of meaningful text?' },
+    { label: 'Does the image convey information?' }  
+  ];
+export {section1,section2,section3,section4,list1}
