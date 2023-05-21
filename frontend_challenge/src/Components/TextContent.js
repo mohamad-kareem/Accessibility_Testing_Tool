@@ -23,25 +23,32 @@ const section4 = {
     test:'Test'
 }
 
-const list1 = [
-    { label: 'Is the image decorative?' },
-    { label: 'Is the image used as a CAPTCHA?' },
-    { label: 'Is the image of meaningful text?' },
-    { label: 'Does the image convey information?' }  
-  ];
+const list1 = {
+    title: 'Inspecting Website Accessibility for Images',
+    items: [
+        { label: 'Is the image decorative?' },
+        { label: 'Is the image used as a CAPTCHA?' },
+        { label: 'Is the image of meaningful text?' },
+        { label: 'Does the image convey information?' }  
+    ]
+}
 
-const list2 = [
-    { label: 'Can the purpose of the link or button be determined by text?' },
-    { label: 'Do links and buttons have a visible focus state?' },
-    { label: 'All links and buttons can be activated without a mouse, by keyboard alone' },
-    { label: 'Are links and buttons correctly marked up with <a>, <button> or <input> tags?' }  
-  ];
-
-  
-const list3 = [
-    { label: 'Does the heading describe the purpose content?' },
-    { label: 'Is the heading marked up as a heading (using H1, H2 etc)?' },
-    { label: 'Do the headings describe the structure of the document?' },
-    { label: 'Are heading levels used in logical order' }  
-  ];
+const list2 = {
+    title: 'Accessibility of Links and Buttons',
+    items:[
+        { label: 'Can the purpose of the link or button be determined by text?' },
+        { label: 'Do links and buttons have a visible focus state?' },
+        { label: 'All links and buttons can be activated without a mouse, by keyboard alone' },
+        { label: 'Are links and buttons correctly marked up with <a>, <button> or <input> tags?' }  
+    ]
+}
+const list3 = {
+    title: 'Accessibility of Headings and Structure',
+    items:[
+        { label: 'Does the heading describe the purpose content?' },
+        { label: 'Is the heading marked up as a heading (using H1, H2 etc)?' },
+        { label: 'Do the headings describe the structure of the document?' },
+        { label: 'Are heading levels used in logical order' }  
+    ]
+}
 export {section1,section2,section3,section4,list1,list2,list3}
