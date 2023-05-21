@@ -1,7 +1,24 @@
 .header-wrapper{
     display: flex;
+    height: 100vh;
 }
 .header-container{
     flex: 1;
     height: 100vh;
+    height: 110vh;
+    overflow-y: scroll;
+}
+.text-info-container{
+    display: flex;
+    justify-content: space-between;
+
+    padding: 20px;
+}
+.left-content{
+  
+}
+.right-pic img {
+    width: 400px;
+    height: 200px;
+    
 }
