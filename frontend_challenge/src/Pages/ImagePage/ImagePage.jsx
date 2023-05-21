@@ -1,7 +1,7 @@
 import "./imagepage.css"
 import SideBar from "../../Components/SideBar/SideBar"
 import TopIdentifier from "../../Components/TopIdentifier/TopIdentifier"
-import InfoCard from "../../Components/InfoCard/InfoCard"
+import TimeLineInfo from "../../Components/TimeLineInfo/TimeLineInfo"
 
 const Palette = () => {
   return (
@@ -10,7 +10,7 @@ const Palette = () => {
     <div className="picture-container">
       <TopIdentifier title="Alt text"/>
       <div className="buttom-image-container">
-        
+        <TimeLineInfo/>
       </div>
    
     </div>
