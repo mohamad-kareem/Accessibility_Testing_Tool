@@ -1,10 +1,10 @@
 import "./circle.css"
 
-const Circle = () => {
+const Circle = ({content}) => {
   return (
     <div className='circle'>
         <div className="circle-text">
-         <p>Text inside the circle</p>
+        <p>{content}</p>
         </div>
      
     </div>

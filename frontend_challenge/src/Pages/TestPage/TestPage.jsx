@@ -12,9 +12,9 @@ const TestPage = () => {
         <div className="buttom-section">
           <div className="test-choices">
               <div className="circles-container">
-                  <Circle/>
-                  <Circle/>
-                  <Circle/>
+                  <Circle content="Image alternative text"/>
+                  <Circle content="Check Headers"/>
+                  <Circle content="Buttons and Links"/>
               </div>
           </div>
         </div>

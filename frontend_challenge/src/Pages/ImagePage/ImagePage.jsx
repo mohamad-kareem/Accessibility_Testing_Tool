@@ -4,9 +4,9 @@ import TopIdentifier from "../../Components/TopIdentifier/TopIdentifier"
 
 const Palette = () => {
   return (
-    <div className='image-wrapper'>
+    <div className='picture-wrapper'>
     <SideBar/>
-    <div className="image-container">
+    <div className="picture-container">
       <TopIdentifier title="Alt text"/>
    
     </div>

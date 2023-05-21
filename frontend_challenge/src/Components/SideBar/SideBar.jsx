@@ -19,7 +19,7 @@ const SideBar = () => {
           <div id="title">{section4.coding}</div>
         </NavLink>
 
-        <NavLink to="/images" className="row" activeclassname="active">
+        <NavLink to="/imagePage" className="row" activeclassname="active">
           <div id="icon"><img src={picture} alt="image icon" /></div>
           <div id="title">{section4.picture}</div>
         </NavLink>

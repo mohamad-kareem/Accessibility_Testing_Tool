@@ -1,7 +1,7 @@
-.palette-wrapper{
+.picture-wrapper{
     display: flex;
 }
-.palette-container{
+.picture-container{
     flex: 1;
     height: 100vh;
 }
