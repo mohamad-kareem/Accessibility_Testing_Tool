@@ -1,6 +1,6 @@
 import "./buttoncomponent.css"
 
-const ButtonComponent = ({color="green",size="1rem",width="80px",children,onClick}) => {
+const ButtonComponent = ({backgroundColor="green",size="1rem",width="80px",children,onClick,color}) => {
   
   const handleKeyDown = (event) => {
     if (event.key === "Enter" || event.key === " ") {
@@ -10,7 +10,8 @@ const ButtonComponent = ({color="green",size="1rem",width="80px",children,onClic
   };
   
   const styles = {
-    backgroundColor: color,
+    color:color,
+    backgroundColor: backgroundColor,
     fontSize: size,
     borderRadius: '13px',
     padding: '5px',
