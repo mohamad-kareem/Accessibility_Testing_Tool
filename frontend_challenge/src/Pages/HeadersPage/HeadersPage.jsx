@@ -5,7 +5,13 @@ import TopIdentifier from "../../Components/TopIdentifier/TopIdentifier"
 import headpic from "../../assets/header-image.png"
 import { headerPageInfo,SematicFail } from "../../Components/TextContent"
 import failure from "../../assets/failed-pic.jpg"
+import { useInView } from 'react-intersection-observer';
 const HeadersPage = () => {
+
+  const [ref, inView] = useInView({
+    triggerOnce: true,
+  });
+  
   return (
     <div className='header-wrapper'>
         <SideBar/>
@@ -22,7 +28,7 @@ const HeadersPage = () => {
             </div>
             <InfoTable/>
             
-            <div className="failures-test-section">
+            <div className={`failures-test-section ${inView ? 'visible' : ''}`} ref={ref}>
               <div className="fail-title">
                <h2>Incorect Semantics !!!</h2>
               </div>

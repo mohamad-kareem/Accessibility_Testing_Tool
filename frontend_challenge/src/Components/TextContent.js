@@ -79,10 +79,7 @@ const card6 = {
     title:"Groups of images",
     description:" If multiple images convey a single piece of information, the text alternative for one image should convey the information for the entire group."
 }
-const card7 = {
-    title:"Image maps",
-    description:" The text alternative for an image that contains multiple clickable areas should provide an overall context for the set of links. Also, each individually clickable area should have alternative text that describes the purpose or destination of the link."
-}
+
 const headerPageInfo = {
     title:"Proper Heading Structure",
     info:"Discover the importance of using proper heading tags,<br>maintaining hierarchy, and providing descriptive headings<br>to improve navigation and accessibility for all users."
