@@ -4,7 +4,7 @@ import { Link as LinkScroll} from 'react-scroll';
 import {FaBars} from 'react-icons/fa'
 import ButtonComponent from "../ButtonComponent/ButtonComponent";
 import Logo from "../Logo/Logo";
-const Navbar = ({toggle}) => {
+const Navbar = ({toggle, showLinks,buttonText}) => {
 
   const navigate = useNavigate();
 
@@ -20,13 +20,16 @@ const Navbar = ({toggle}) => {
             <FaBars/>
           </div>
           <div className="nav_menu">
+          {showLinks && (
+              <>
             <div className="nav_items">
               <LinkScroll to="colors" smooth={true} duration={500} spy={true} exact='true' offset={-80} className="nav_links">Colors</LinkScroll>
               <LinkScroll to="semantics" smooth={true} duration={500} spy={true} exact='true' offset={-80} className="nav_links">Semantics</LinkScroll>
               <LinkScroll to="Usability" smooth={true} duration={500} spy={true} exact='true' offset={-80} className="nav_links">Usability</LinkScroll>
             </div>
+            </>)}
             <div className="btn-container">
-              <ButtonComponent width="90px" children="Sign Up" onClick={handleButtonSignUp}/>
+              <ButtonComponent width="90px" children={buttonText || "Sign Up"}  onClick={handleButtonSignUp}/>
             </div>
           </div>
       </div>

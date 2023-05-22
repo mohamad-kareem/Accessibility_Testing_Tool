@@ -1,7 +1,10 @@
 import "./signinsignout.css"
 import ButtonComponent from '../../Components/ButtonComponent/ButtonComponent'
+import Navbar from "../../Components/Navbar/Navbar"
 const SignInSignOut = () => {
   return (
+    <>
+    <Navbar showLinks={false} buttonText="Home"/>
     <div className='wrapper'>
         <div className="greet-container">
             <h1>Welcome to the <br /> new Accessible Galaxy!</h1>
@@ -35,6 +38,7 @@ const SignInSignOut = () => {
             </div>
         </div>
     </div>
+    </>
   )
 }
 

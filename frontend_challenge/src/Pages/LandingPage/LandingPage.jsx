@@ -28,7 +28,7 @@ const LandingPage = () => {
   });
   return (
     <div>
-      <Navbar toggle={toggle}/>
+      <Navbar toggle={toggle} showLinks={true}/>
       <DropBar isOpen={isOpen} toggle={toggle}/>
       <LandingIntro/>
       <div className={`section-container ${reach1 ? 'visible' : ''}`} ref={refSection1}>
