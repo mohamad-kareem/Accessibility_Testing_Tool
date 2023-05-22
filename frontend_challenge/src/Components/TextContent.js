@@ -1,3 +1,10 @@
+const intro = {
+    intro1:"Website",
+    intro2:"Optimization",
+    intro3:"Ensure your website's accessibility with",
+    intro4:"our comprehensive testing tool ."
+}
+
 const section1 = {
     title:'alternative text',
     description:'Providing descriptive alternative text (alt text) for images enhances accessibility by conveying their content, purpose, and context to users who cannot see them.',
@@ -104,4 +111,4 @@ const tab3 = {
 const SematicFail = {
     info:"Failing the test indicate that the content is not organized and labeled correctly, making it difficult for assistive technologies to interpret and convey the information effectively. Resolving these semantic failures is crucial to ensure a meaningful and accessible experience for all users."
 }
-export {section1,section2,section3,section4,list1,list2,list3,card1,card2,card3,card4,card5,card6,headerPageInfo,tab1,tab2,tab3,SematicFail}
+export {section1,section2,section3,section4,list1,list2,list3,card1,card2,card3,card4,card5,card6,headerPageInfo,tab1,tab2,tab3,SematicFail,intro}

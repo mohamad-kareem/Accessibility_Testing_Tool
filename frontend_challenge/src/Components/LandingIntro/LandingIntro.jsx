@@ -1,7 +1,9 @@
 import "./landingintro.css"
+import { intro } from "../TextContent";
 import Video from '../../assets/pexels-pressmaster-3130284-1280x720-30fps.mp4'
 import ButtonComponent from "../ButtonComponent/ButtonComponent"
 import { useNavigate } from 'react-router-dom';
+import { useInView } from 'react-intersection-observer';
 const LandingIntro = () => {
 
   const navigate = useNavigate();
@@ -9,6 +11,13 @@ const LandingIntro = () => {
   const handleButtonClick = () => {
     navigate('/testPage');
   };
+  const [refH1, reachH1] = useInView({
+    triggerOnce: true,
+  });
+  const [refP, reachP] = useInView({
+    triggerOnce: true,
+  });
+
 
   return (
     <div className='intro-container'>
@@ -18,9 +27,9 @@ const LandingIntro = () => {
             </div>
         </div>
         <div className="intro-content">
-        <h1>Website<br></br>Optimization  <span><ButtonComponent children='Get Started' width="120px" onClick={handleButtonClick}/></span></h1>
-        <p>"Ensure your website's accessibility with
-          <br/> our comprehensive testing tool ."</p>
+        <h1 ref={refH1} className={`intro-heading ${reachH1 ? 'show' : ''}`}>{intro.intro1}<br></br>{intro.intro2} <span><ButtonComponent children='Get Started' width="120px" onClick={handleButtonClick}/></span></h1>
+        <p ref={refP} className={`intro-description ${reachP ? 'show' : ''}`}>"{intro.intro3}
+          <br/>{intro.intro4}"</p>
         </div>
       
     </div>

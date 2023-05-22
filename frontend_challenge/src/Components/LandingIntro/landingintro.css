@@ -65,3 +65,31 @@
     font-size: 25px;
     text-align: center;
  }
+ .intro-heading {
+    opacity: 0;
+  }
+  
+  .intro-description {
+    opacity: 0;
+  }
+  
+  .intro-heading.show {
+    animation: fade-in 2s forwards;
+  }
+  
+  .intro-description.show {
+    animation: fade-in 1s forwards;
+    animation-delay: 0.6s; 
+  }
+  
+  @keyframes fade-in {
+    from {
+      opacity: 0;
+      transform: translateY(-22px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
