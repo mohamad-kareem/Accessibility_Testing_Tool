@@ -10,9 +10,9 @@ const InfoTable = () => {
   return (
   <div className="table-container">
     <div className="section-tabs">
-        <button className={toggleState === 1 ? "tabs active-tabs" : "tabs"} onClick={() => toggleTab(1)}>1</button>
-        <button className={toggleState === 2 ? "tabs active-tabs" : "tabs"} onClick={() => toggleTab(2)}>2</button>
-        <button className={toggleState === 3 ? "tabs active-tabs" : "tabs"} onClick={() => toggleTab(3)}>3</button>
+        <button className={toggleState === 1 ? "tabs active-tabs" : "tabs"} onClick={() => toggleTab(1)}>Step One</button>
+        <button className={toggleState === 2 ? "tabs active-tabs" : "tabs"} onClick={() => toggleTab(2)}>Step Two</button>
+        <button className={toggleState === 3 ? "tabs active-tabs" : "tabs"} onClick={() => toggleTab(3)}>Step Three</button>
     </div>
     <div className="table-content">
         <div  className={toggleState === 1 ? "content  active-content" : "content"}>

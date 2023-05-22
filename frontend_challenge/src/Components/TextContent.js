@@ -103,4 +103,7 @@ const tab3 = {
     info1:"While headings should convey structure and hierarchy, their visual presentation can be customized using CSS. Apply appropriate styles to headings to ensure they are visually distinguishable and enhance readability without relying solely on font size or weight.",
     info2:"Use screen readers or other assistive technologies to evaluate how headings are read and understood by users with disabilities. Ensure that the headings are announced correctly and provide meaningful information about the content."
 }
-export {section1,section2,section3,section4,list1,list2,list3,card1,card2,card3,card4,card5,card6,headerPageInfo,tab1,tab2,tab3}
+const SematicFail = {
+    info:"Failing the test indicate that the content is not organized and labeled correctly, making it difficult for assistive technologies to interpret and convey the information effectively. Resolving these semantic failures is crucial to ensure a meaningful and accessible experience for all users."
+}
+export {section1,section2,section3,section4,list1,list2,list3,card1,card2,card3,card4,card5,card6,headerPageInfo,tab1,tab2,tab3,SematicFail}
