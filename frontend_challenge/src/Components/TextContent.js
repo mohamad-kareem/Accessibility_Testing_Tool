@@ -83,6 +83,10 @@ const card7 = {
     title:"Image maps",
     description:" The text alternative for an image that contains multiple clickable areas should provide an overall context for the set of links. Also, each individually clickable area should have alternative text that describes the purpose or destination of the link."
 }
+const headerPageInfo = {
+    title:"Proper Heading Structure",
+    info:"Discover the importance of using proper heading tags,<br>maintaining hierarchy, and providing descriptive headings<br>to improve navigation and accessibility for all users."
+}
 
 const tab1 = {
     title:"Use proper heading hierarchy:",
@@ -99,4 +103,4 @@ const tab3 = {
     info1:"While headings should convey structure and hierarchy, their visual presentation can be customized using CSS. Apply appropriate styles to headings to ensure they are visually distinguishable and enhance readability without relying solely on font size or weight.",
     info2:"Use screen readers or other assistive technologies to evaluate how headings are read and understood by users with disabilities. Ensure that the headings are announced correctly and provide meaningful information about the content."
 }
-export {section1,section2,section3,section4,list1,list2,list3,card1,card2,card3,card4,card5,card6,tab1,tab2,tab3}
+export {section1,section2,section3,section4,list1,list2,list3,card1,card2,card3,card4,card5,card6,headerPageInfo,tab1,tab2,tab3}
