@@ -84,4 +84,19 @@ const card7 = {
     description:" The text alternative for an image that contains multiple clickable areas should provide an overall context for the set of links. Also, each individually clickable area should have alternative text that describes the purpose or destination of the link."
 }
 
-export {section1,section2,section3,section4,list1,list2,list3,card1,card2,card3,card4,card5,card6}
+const tab1 = {
+    title:"Use proper heading hierarchy:",
+    info1:"Ensure that your headings follow a logical hierarchy and are marked up correctly using the appropriate HTML heading tags (H1, H2, H3, etc.). The heading hierarchy should reflect the structure of the content.",
+    info2:"Each page should have a single H1 heading that describes the main purpose or topic of the content on that page. The H1 heading should be unique and provide a clear and concise summary of the page's content."
+}
+const tab2 = {
+    title:"Maintain proper heading levels",
+    info1:"Avoid skipping heading levels or using non-sequential headings. For example, if you have an H2 heading, the subsections within it should use H3 headings, not H4 or H5. This ensures a clear and consistent heading structure.",
+    info2:"Each heading should provide a concise and accurate summary of the content it introduces. Use meaningful and descriptive headings that give users a clear idea of what to expect in the corresponding section or subsection."
+}
+const tab3 = {
+    title:"Use CSS for visual styling:",
+    info1:"While headings should convey structure and hierarchy, their visual presentation can be customized using CSS. Apply appropriate styles to headings to ensure they are visually distinguishable and enhance readability without relying solely on font size or weight.",
+    info2:"Use screen readers or other assistive technologies to evaluate how headings are read and understood by users with disabilities. Ensure that the headings are announced correctly and provide meaningful information about the content."
+}
+export {section1,section2,section3,section4,list1,list2,list3,card1,card2,card3,card4,card5,card6,tab1,tab2,tab3}

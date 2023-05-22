@@ -1,24 +1,26 @@
 .table-container{
     display: flex;
+    flex-direction: column;
     flex: 1;
-    height: 400px;
+    height: 420px;
     background: #f1f1f1;
-    margin: 50px;
+    margin: 20px;
     margin-top: 50px;
     border: 1px solid rgba(0, 0, 0, 0.274);
+    position: relative;
+    word-break: break-all;
+    background-color: #fff;
 }
 button{
     border: none;
 }
 .section-tabs{
     display: flex;
-    flex-direction: row;
-    height: fit-content;
 }
 .tabs {
     padding: 15px;
     text-align: center;
-    width: 300px;
+    width: 320px;
     background: rgba(128, 128, 128, 0.075);
     cursor: pointer;
     border-bottom: 1px solid rgba(0, 0, 0, 0.274);
@@ -31,7 +33,7 @@ button{
 }
 .active-tabs  {
     background: white;
-    border-bottom: 1px solid transparent;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.274);
 }
 .active-tabs::before {
     content: "";
@@ -44,3 +46,22 @@ button{
     height: 5px;
     background: rgb(88, 147, 241);
   }
+
+.content {
+    background: white;
+    padding: 20px;
+    width: fit-content;
+    height: 100%;
+    display: none;
+}
+.content h2 {
+    padding: 0px 0 5px 0px;
+}
+.content ul {
+    width: fit-content;
+    height: 100%;
+}
+
+.active-content {
+    display: block;
+}

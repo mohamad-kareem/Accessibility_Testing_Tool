@@ -1,6 +1,6 @@
 import "./infotable.css"
 import { useState } from "react";
-
+import { tab1,tab2,tab3 } from "../TextContent";
 const InfoTable = () => {
     const [toggleState, setToggleState] = useState(1);
 
@@ -15,17 +15,26 @@ const InfoTable = () => {
         <button className={toggleState === 3 ? "tabs active-tabs" : "tabs"} onClick={() => toggleTab(3)}>3</button>
     </div>
     <div className="table-content">
-        <div className="inner-section">
-            <h2></h2>
-            <p></p>
+        <div  className={toggleState === 1 ? "content  active-content" : "content"}>
+            <h2>{tab1.title}</h2>
+            <ul>
+              <li>{tab1.info1}</li><br />
+              <li>{tab1.info2}</li>
+            </ul>
         </div>
-        <div className="section-two">
-            <h2></h2>
-            <p></p>
+        <div  className={toggleState === 2 ? "content  active-content" : "content"}>
+            <h2>{tab2.title}</h2>
+            <ul>
+              <li>{tab2.info1}</li><br />
+              <li>{tab2.info2}</li>
+            </ul>
         </div>
-        <div className="section-three">
-            <h2></h2>
-            <p></p>
+        <div  className={toggleState === 3 ? "content  active-content" : "content"}>
+            <h2>{tab3.title}</h2>
+            <ul>
+              <li>{tab3.info1}</li> <br />
+              <li>{tab3.info2}</li>
+             </ul>
         </div>
     </div>
     
