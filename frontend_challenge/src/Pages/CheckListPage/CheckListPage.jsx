@@ -7,7 +7,7 @@ import CheckList from '../../Components/CheckList/CheckList'
 import { list1, list2, list3} from '../../Components/TextContent'
 const CheckListPage = () => {
 
-  const [selectedList, setSelectedList] = useState(null);
+  const [selectedList, setSelectedList] = useState(list1);
 
   const handleCircleClick = (list) => {
     setSelectedList(list);

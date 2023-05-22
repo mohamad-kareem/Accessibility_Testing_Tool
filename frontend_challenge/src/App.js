@@ -5,6 +5,7 @@ import CheckListPage from './pages/CheckListPage/CheckListPage';
 import ImagePage from "./pages/ImagePage/ImagePage"
 import HeadersPage from './pages/HeadersPage/HeadersPage';
 import UsabilityPage from './pages/UsabilityPage/UsabilityPage';
+import SignInSignOut from './pages/SignInSignOut/SignInSignOut';
 function App() {
   return (
     <div className="App">
@@ -16,6 +17,7 @@ function App() {
           <Route path="/imagePage" element={<ImagePage/>}/>
           <Route path="/semantics" element={<HeadersPage/>}/>
           <Route path="/usability" element={<UsabilityPage/>}/>
+          <Route path="/SignInSignOut" element={<SignInSignOut/>}/>
         </Routes>
       </Router>
     </div>
