@@ -4,7 +4,7 @@ import {section3} from "../TextContent"
 import ButtonComponent from "../ButtonComponent/ButtonComponent"
 const Section3 = () => {
   return (
-<div className='info-wrapper' id="Focusing">
+<div className='info-wrapper' id="Usability">
         <div className="info-container">
             <div className="text-content">
                 <h1>{section3.title}</h1>

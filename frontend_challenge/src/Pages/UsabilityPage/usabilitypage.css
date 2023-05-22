@@ -1,0 +1,15 @@
+.usability-wrapper{
+    display: flex;
+    height: 100vh;
+}
+.usability-container{
+    flex: 1;
+    height: 110vh;
+    overflow-y: scroll;
+}
+.buttom-section {
+    padding: 15px;
+}
+.header a{
+    color: green;
+}

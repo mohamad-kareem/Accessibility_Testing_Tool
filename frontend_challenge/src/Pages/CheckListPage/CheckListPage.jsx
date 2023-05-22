@@ -2,10 +2,10 @@ import React, {useState} from 'react'
 import SideBar from '../../Components/SideBar/SideBar'
 import TopIdentifier from '../../Components/TopIdentifier/TopIdentifier'
 import Circle from "../../Components/Circle/Circle"
-import "./testpage.css"
+import "./checklistpage.css"
 import CheckList from '../../Components/CheckList/CheckList'
 import { list1, list2, list3} from '../../Components/TextContent'
-const TestPage = () => {
+const CheckListPage = () => {
 
   const [selectedList, setSelectedList] = useState(null);
 
@@ -38,4 +38,4 @@ const TestPage = () => {
   )
 }
 
-export default TestPage
+export default CheckListPage

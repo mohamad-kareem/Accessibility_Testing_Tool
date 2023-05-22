@@ -16,8 +16,9 @@ const section3 = {
     alt:'lady surrounded by social media icons (connections)'
 }
 const section4 = {
+    home:"Home",
     coding:'Coding',
-    target:'Target',
+    usability:'Usability',
     semantics:'Semantics',
     picture:'Picture',
     test:'Test'
