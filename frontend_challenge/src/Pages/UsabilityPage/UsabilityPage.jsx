@@ -3,6 +3,7 @@ import SideBar from '../../Components/SideBar/SideBar'
 import TopIdentifier from "../../Components/TopIdentifier/TopIdentifier"
 import {CircularProgressbar, buildStyles} from "react-circular-progressbar"
 import 'react-circular-progressbar/dist/styles.css';
+import Table from "../../Components/Table/Table";
 
 const UsabilityPage = () => {
   return (
@@ -35,6 +36,11 @@ const UsabilityPage = () => {
                         <li>has a motor impairment that prevents their using a mouse;</li>
                         <li>prefers to use a keyboard to complete certain tasks, such as filling out a form.</li>
                     </ul>
+                        <div className="table-container1">
+                            <h2>Requirements</h2>
+                         <Table/>
+                        </div>
+                    
                 </div>
               
             </div>

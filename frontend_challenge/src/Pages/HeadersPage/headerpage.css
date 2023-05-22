@@ -1,10 +1,9 @@
 .header-wrapper{
     display: flex;
-    height: 100vh;
+    height: 110vh;
 }
 .header-container{
     flex: 1;
-    height: 100vh;
     height: 110vh;
     overflow-y: scroll;
 }
