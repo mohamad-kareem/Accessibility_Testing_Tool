@@ -90,7 +90,13 @@ const card6 = {
 
 const headerPageInfo = {
     title:"Proper Heading Structure",
-    info:"Discover the importance of using proper heading tags,<br>maintaining hierarchy, and providing descriptive headings<br>to improve navigation and accessibility for all users."
+    info:"Discover the importance of using proper heading tags,<br>maintaining hierarchy, and providing descriptive headings<br>to improve navigation and accessibility for all users.",
+    title2:"A Sequential Guide to Semantic Structure:",
+    title3:"Incorect Semantics !!!",
+    title4:"To summarize:",
+    summary1:"Consider accessibility from the start of a project, and test early and often. Just like any other bug, an accessibility problem becomes more expensive to fix the later it is discovered.",
+    summary2:"Bear in mind that a lot of accessibility best practices benefit everyone, not just users with disabilities. For example, lean semantic markup is not only good for screen readers, but it is also fast to load and performant. This benefits everyone, especially those on mobile devices and/or slow connections.",
+    summary3:"Publish an accessibility statement on your site and engage with people having problems."
 }
 
 const tab1 = {

@@ -28,24 +28,31 @@ const HeadersPage = () => {
                 </div>
             </div>
             <div className="title-table">
-              A Sequential Guide to Semantic Structure:
+              {headerPageInfo.title2}
             </div>
             <InfoTable/>
             
             <div className={`failures-test-section ${inView ? 'visible' : ''}`} ref={ref}>
-              <div className="fail-title">
-                <img src={sad} alt="sad emoji"/>
-               <h2>Incorect Semantics !!!</h2>
-              </div>
-              <div className="failures-test-container">
-                <div className="failure-left">
-                  <p>{SematicFail.info}</p>
+                <div className="fail-title">
+                  <img src={sad} alt="sad emoji"/>
+                <h2>{headerPageInfo.title3}</h2>
                 </div>
-                <div className="failure-right">
-                  <img src={failure} alt="failing the test" />
+                <div className="failures-test-container">
+                    <div className="failure-left">
+                      <p>{SematicFail.info}</p>
+                    </div>
+                    <div className="failure-right">
+                      <img src={failure} alt="failing the test" />
+                    </div>
                 </div>
-              </div>
-              
+            </div>
+            <div className="summary">
+                <h3>{headerPageInfo.title4}</h3>
+                <ul>
+                  <li>{headerPageInfo.summary1}</li><br />
+                  <li>{headerPageInfo.summary2}</li><br />
+                  <li>{headerPageInfo.summary3}</li><br />
+                </ul>
             </div>
        </div>
     </div>
