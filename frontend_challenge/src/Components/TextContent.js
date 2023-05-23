@@ -28,7 +28,8 @@ const section4 = {
     usability:'Usability',
     semantics:'Semantics',
     picture:'Picture',
-    test:'Check List'
+    checklist:'Check List',
+    test:'Evaluatuion'
 }
 
 const list1 = {
@@ -136,7 +137,6 @@ const UsabilityText= {
 const footer = {
     text1:"It's all about your dreams.",
     text2:"Blog",
-
     text3:"Tech",
     text4:"Design",
     text5:"News",

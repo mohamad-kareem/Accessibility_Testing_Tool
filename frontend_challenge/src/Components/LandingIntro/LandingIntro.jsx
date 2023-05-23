@@ -9,7 +9,7 @@ const LandingIntro = () => {
   const navigate = useNavigate();
 
   const handleButtonClick = () => {
-    navigate('/testPage');
+    navigate('/checklist');
   };
   const [refH1, reachH1] = useInView({
     triggerOnce: true,

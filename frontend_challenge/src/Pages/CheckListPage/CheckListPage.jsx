@@ -17,7 +17,7 @@ const CheckListPage = () => {
     <div className='test-wrapper'>
       <SideBar/>
       <div className="test-container">
-        <TopIdentifier title="Test"/>
+        <TopIdentifier title="CheckList"/>
         <div className="buttom-section">
           <div className="test-choices">
               <div className="circles-container">

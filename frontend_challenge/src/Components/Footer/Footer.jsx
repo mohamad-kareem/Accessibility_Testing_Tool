@@ -3,6 +3,7 @@ import "./footer.css"
 import { footer } from "../TextContent"
 const Footer = () => {
   return (
+    <footer>
     <div className='footer-container'>
       <div id="footer_content">
       <div id="footer_contacts">
@@ -64,6 +65,7 @@ const Footer = () => {
       </div>
     </div>
     </div>
+    </footer>
   )
 }
 

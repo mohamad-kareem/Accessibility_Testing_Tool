@@ -5,6 +5,7 @@ import dashboard from "../../icons/dashboard.png"
 import picture from "../../icons/picture.png"
 import semantics from "../../icons/semantic-web.png"
 import target from "../../icons/target.png"
+import checklist from "../../icons/checklist.png"
 import test from "../../icons/test.png"
 import { NavLink } from 'react-router-dom';
 import { section4 } from "../TextContent"
@@ -30,6 +31,11 @@ const SideBar = () => {
           <div id="title">{showTitle && section4.dashboard}</div>
         </div>
 
+        <NavLink to="/testpage" className="row" activeclassname="active">
+          <div id="icon"><img src={test} alt="test demo" /></div>
+          <div id="title">{showTitle && section4.test}</div>
+        </NavLink> 
+
         <NavLink to="/landing" className="row" activeclassname="active">
           <div id="icon"><img src={Home} alt="home bulding" /></div>
           <div id="title">{showTitle && section4.home}</div>
@@ -51,10 +57,11 @@ const SideBar = () => {
           <div id="title">{showTitle && section4.usability}</div>
         </NavLink>
 
-        <NavLink to="/testpage" className="row" activeclassname="active">
-          <div id="icon"><img src={test} alt="test demo" /></div>
-          <div id="title">{showTitle && section4.test}</div>
+        <NavLink to="/checklist" className="row" activeclassname="active">
+          <div id="icon"><img src={checklist} alt="check list" /></div>
+          <div id="title">{showTitle && section4.checklist}</div>
         </NavLink>
+
 
       </div>
      </div>

@@ -1,0 +1,31 @@
+.test-page-wrapper{
+    display: flex;
+    height: 110vh;
+}
+.test-page-container{
+    flex: 1;
+    height: 110vh;
+    overflow-y: scroll;
+}
+.buttom-test-section{
+    padding: 20px;
+}
+.intro-test{
+    display: flex;
+    justify-content: space-around;
+}
+.test-image img{
+    margin-right: 70px;
+    width: 200px;
+}
+.url-box{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.url-box input{
+    border: 2px solid green;
+    width: 600px;
+    height: 40px;
+    
+}
