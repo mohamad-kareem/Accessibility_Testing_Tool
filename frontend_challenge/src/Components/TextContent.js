@@ -133,4 +133,20 @@ const UsabilityText= {
     tableTitle:"Accessibility Guidelines for Links and Buttons",
     info:"Our Handling common accessibility problems article covers accessibility specifics that should be tested in more detail."
 }
-export {section1,section2,section3,section4,list1,list2,list3,card1,card2,card3,card4,card5,card6,headerPageInfo,tab1,tab2,tab3,SematicFail,intro,UsabilityText}
+const footer = {
+    text1:"It's all about your dreams.",
+    text2:"Blog",
+
+    text3:"Tech",
+    text4:"Design",
+    text5:"News",
+    text6:"Products",
+    text7:"App",
+    text8:"Desktop",
+    text9:"Cloud",
+    text10:"Subscribe",
+    text11:"Enter your e-mail to get more info",
+    text12:"send"
+
+}
+export {section1,section2,section3,section4,list1,list2,list3,card1,card2,card3,card4,card5,card6,headerPageInfo,tab1,tab2,tab3,SematicFail,intro,UsabilityText,footer}
