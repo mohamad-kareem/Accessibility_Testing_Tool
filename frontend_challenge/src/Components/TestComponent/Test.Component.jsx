@@ -1,6 +1,7 @@
 import "./Test.Component.jsx"
 import fail from "../../icons/fail.png"
 import pass from "../../icons/pass.png"
+import "./testcomponent.css"
 const TestComponent = () => {
   return (
     <div className='test-wrapper'>

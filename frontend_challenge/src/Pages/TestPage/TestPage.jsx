@@ -1,3 +1,4 @@
+import { useState } from "react"
 import "./test.css"
 import TopIdentifier from '../../Components/TopIdentifier/TopIdentifier'
 import SideBar from '../../Components/SideBar/SideBar'
@@ -5,6 +6,13 @@ import failImage from "../../assets/failImage.jpg"
 import ButtonComponent from "../../Components/ButtonComponent/ButtonComponent"
 import TestComponent from "../../Components/TestComponent/Test.Component.jsx"
 const TestPage = () => {
+
+  const [showTestComponent, setShowTestComponent] = useState(false);
+
+  const handleButtonClick = () => {
+    setShowTestComponent(true);
+  };
+
   return (
     <div className='test-page-wrapper'>
       <SideBar/>
@@ -35,11 +43,13 @@ const TestPage = () => {
            <h2>Enter Your web URL:</h2>
            <div className="url-box">
             <input type="text" placeholder="https://github.com/mohamad-kareem/CodeJunction" />
-            <ButtonComponent children="Test" width="150px"/>
+            <ButtonComponent onClick={handleButtonClick} children="Test" width="150px"/>
            </div>
-           <div className="result">
-            <TestComponent/>
-           </div>
+           {showTestComponent && (
+              <div className="result">
+                <TestComponent/>
+              </div>
+            )}
           </div>
         </div>
 

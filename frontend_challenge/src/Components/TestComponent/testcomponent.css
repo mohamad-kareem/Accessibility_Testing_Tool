@@ -1,5 +1,6 @@
 .table {
     width: 100%;
+    background-color:  rgb(244, 244, 244);
 }
 .table th{
     padding: 10px;
