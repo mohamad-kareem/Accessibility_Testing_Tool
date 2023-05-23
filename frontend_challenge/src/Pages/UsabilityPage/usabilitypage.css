@@ -28,6 +28,15 @@ margin-top: 40px;
 .header-h1 a{
     color: green;
 }
+.video-info{
+    border: 1px solid green;
+    height: fit-content;
+    padding: 4px;
+    background-color: rgb(211, 247, 214);
+    margin-top: 60px;
+    margin-right: 150px;
+}
+
 .video-usability video{
     border: 1px solid black;
     display: flex;
@@ -35,6 +44,7 @@ margin-top: 40px;
     width: fit-content;
     height: 350px;
     padding: 5px;
+    margin-left: 100px;
 }
 .mid-section{
     margin-top: 35px;

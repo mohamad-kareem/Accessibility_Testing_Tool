@@ -114,13 +114,17 @@ const SematicFail = {
 
 const UsabilityText= {
     title:"Focus and Keyboard operability",
+    link:"Download the Keyboard Operability Developer Brown Bag slides.",
+    href:"https://yale.app.box.com/s/cy25dkx36cciftfq6039jn9yrlhz7gwd",
     title2:"Users Who Do Not Use a Mouse",
+    chartTitle:"% of Accessibility websites",
     par1:"Many computer users do not use a mouse, trackpad, or other <br /> pointing device when interacting with web pages, either due <br /> to preference or to impairment.<br /><br /> A user may not use a mouse because that user:",
     list1:"is blind;",
     list2:"has low enough vision such that they have difficulty following a mouse;",
     list3:"has a motor impairment that prevents their using a mouse;",
     list4:"prefers to use a keyboard to complete certain tasks, such as filling out a form.",
     par2:"In these cases, the user likely uses a screen reader, keyboard, or emulated keyboard. <br /> The below video also provides a brief example of what the experience is like.",
-    tableTitle:"Accessibility Guidelines for Links and Buttons"
+    tableTitle:"Accessibility Guidelines for Links and Buttons",
+    info:"Our Handling common accessibility problems article covers accessibility specifics that should be tested in more detail."
 }
 export {section1,section2,section3,section4,list1,list2,list3,card1,card2,card3,card4,card5,card6,headerPageInfo,tab1,tab2,tab3,SematicFail,intro,UsabilityText}
