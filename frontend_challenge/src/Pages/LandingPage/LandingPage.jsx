@@ -27,7 +27,7 @@ const LandingPage = () => {
     triggerOnce: true,
   });
   return (
-    <div>
+    <div className="landingpage">
       <Navbar toggle={toggle} showLinks={true}/>
       <DropBar isOpen={isOpen} toggle={toggle}/>
       <LandingIntro/>

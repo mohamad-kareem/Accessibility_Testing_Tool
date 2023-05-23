@@ -3,11 +3,18 @@
     max-width: 1200px;
 }
 .timeline-container{
-    padding: 30px 50px;
+    padding: 15px 50px;
     position: relative;
     width: 41%;
     animation: movedown 1s linear forwards;
     opacity: 0;
+    color: black;
+    font-weight:500;
+}
+.timeline-box h3{
+    font-size: 20px;
+    color: green;
+    text-decoration: underline;
 }
 @keyframes movedown {
     0%{
@@ -43,7 +50,7 @@
 
 .timeline-box{
     padding: 10px 50px 10px 20px;
-    background: white;
+    background: rgb(255, 255, 255);
     box-shadow: 10px 16px 32px 10px rgba(116, 85, 85, 0.2);
     position: relative;
     border-radius: 6px;

@@ -24,11 +24,11 @@ const section3 = {
 }
 const section4 = {
     home:"Home",
-    coding:'Coding',
+    dashboard:'Dashboard',
     usability:'Usability',
     semantics:'Semantics',
     picture:'Picture',
-    test:'Test'
+    test:'Check List'
 }
 
 const list1 = {

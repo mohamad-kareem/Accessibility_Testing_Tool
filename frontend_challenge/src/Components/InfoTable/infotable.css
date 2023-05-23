@@ -3,25 +3,26 @@
     flex-direction: column;
     flex: 1;
     height: 420px;
-    background: #f1f1f1;
     margin: 20px;
     margin-top: 50px;
     border: 1px solid rgba(0, 0, 0, 0.274);
     position: relative;
     word-break: break-all;
-    background-color: #fff;
 }
 button{
     border: none;
+    font-size: 18px;
+    font-weight: 550;
 }
 .section-tabs{
     display: flex;
+    font-size: 20px;
 }
 .tabs {
     padding: 15px;
     text-align: center;
     width: 320px;
-    background: rgba(128, 128, 128, 0.075);
+    background: green;
     cursor: pointer;
     border-bottom: 1px solid rgba(0, 0, 0, 0.274);
     box-sizing: content-box;
@@ -32,7 +33,7 @@ button{
     border-right: 1px solid rgba(0, 0, 0, 0.274);
 }
 .active-tabs  {
-    background: white;
+    background-color: rgb(244, 244, 244);
     border-bottom: 1px solid rgba(0, 0, 0, 0.274);
 }
 .active-tabs::before {
@@ -48,7 +49,7 @@ button{
   }
 
 .content {
-    background: white;
+    background-color: rgb(244, 244, 244);
     padding: 20px;
     width: fit-content;
     height: 100%;

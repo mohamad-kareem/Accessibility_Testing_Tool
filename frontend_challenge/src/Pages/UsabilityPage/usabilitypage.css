@@ -1,6 +1,7 @@
 .usability-wrapper{
     display: flex;
     height: 100vh;
+    background-color: rgb(244, 244, 244);
 }
 .usability-container{
     flex: 1;

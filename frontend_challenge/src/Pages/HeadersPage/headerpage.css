@@ -1,6 +1,7 @@
 .header-wrapper{
     display: flex;
     height: 110vh;
+    background-color: rgb(244, 244, 244);
 }
 .header-container{
     flex: 1;
