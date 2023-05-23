@@ -22,7 +22,7 @@ const SignInSignOut = () => {
                     <input type="email" name="email" placeholder="Email" required="" />
                     <input type="password" name="password" placeholder="password" required="" />
                     <div className="btn">
-                        <ButtonComponent children="Sign Up" width="150px"/>
+                        <ButtonComponent children="Sign Up" width="150px" color="white"/>
                     </div>
                 </form>
             </div>
