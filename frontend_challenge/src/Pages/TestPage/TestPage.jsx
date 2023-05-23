@@ -3,6 +3,7 @@ import TopIdentifier from '../../Components/TopIdentifier/TopIdentifier'
 import SideBar from '../../Components/SideBar/SideBar'
 import failImage from "../../assets/failImage.jpg"
 import ButtonComponent from "../../Components/ButtonComponent/ButtonComponent"
+import TestComponent from "../../Components/TestComponent/Test.Component.jsx"
 const TestPage = () => {
   return (
     <div className='test-page-wrapper'>
@@ -35,6 +36,9 @@ const TestPage = () => {
            <div className="url-box">
             <input type="text" placeholder="https://github.com/mohamad-kareem/CodeJunction" />
             <ButtonComponent children="Test" width="150px"/>
+           </div>
+           <div className="result">
+            <TestComponent/>
            </div>
           </div>
         </div>

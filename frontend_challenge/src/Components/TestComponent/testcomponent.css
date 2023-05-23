@@ -1,0 +1,21 @@
+.table {
+    width: 100%;
+}
+.table th{
+    padding: 10px;
+}
+.table td {
+    padding: 15px;
+    width: 100px;
+    border: 1px solid #ddd;
+}
+.table th {
+    background-color:green;
+    font-weight: bold;
+}
+.table td {
+    text-align: center;
+}
+.table td:last-child {
+    border-right: none;
+}
