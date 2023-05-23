@@ -2,16 +2,22 @@
     display: flex;
     height: 110vh;
     background-color: rgb(244, 244, 244);
+    
 }
 .header-container{
     flex: 1;
     height: 110vh;
     overflow-y: scroll;
+    
 }
 .text-info-container{
     display: flex;
     justify-content: space-between;
     padding: 20px;
+}
+.title-table{
+    padding-left: 20px;
+    font-size: 20px;
 }
 .right-pic img {
     width: 400px;

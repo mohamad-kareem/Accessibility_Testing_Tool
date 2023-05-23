@@ -4,7 +4,8 @@ import TopIdentifier from "../../Components/TopIdentifier/TopIdentifier"
 import {CircularProgressbar, buildStyles} from "react-circular-progressbar"
 import 'react-circular-progressbar/dist/styles.css';
 import Table from "../../Components/Table/Table";
-
+import video from "../../assets/Digital Accessibility.mp4"
+import {UsabilityText} from "../../Components/TextContent"
 const UsabilityPage = () => {
   return (
     <div className='usability-wrapper'>
@@ -14,7 +15,7 @@ const UsabilityPage = () => {
             <div className="buttom-section">
                 <div className="first-layer">
                     <div className="header-h1">
-                        <h1>Focus and Keyboard operability</h1>
+                        <h1>{UsabilityText.title}</h1>
                         <a href="https://yale.app.box.com/s/cy25dkx36cciftfq6039jn9yrlhz7gwd" title="Visit Yale slides and download them">Download the Keyboard Operability Developer Brown Bag slides</a>
                     </div>
                     <div className="chart1">
@@ -28,16 +29,20 @@ const UsabilityPage = () => {
                 </div>
                 <br />
                 <div className="mid-section">
-                    <h2>Users Who Do Not Use a Mouse</h2>
-                    <p>Many computer users do not use a mouse, trackpad, or other <br /> pointing device when interacting with web pages, either due <br /> to preference or to impairment.<br /><br /> A user may not use a mouse because that user:</p>
+                    <h2>{UsabilityText.title2}</h2>
+                    <p dangerouslySetInnerHTML={{ __html: UsabilityText.par1 }}></p>
                     <ul>
-                        <li>is blind;</li>
-                        <li>has low enough vision such that they have difficulty following a mouse;</li>
-                        <li>has a motor impairment that prevents their using a mouse;</li>
-                        <li>prefers to use a keyboard to complete certain tasks, such as filling out a form.</li>
-                    </ul>
+                        <li>{UsabilityText.list1}</li>
+                        <li>{UsabilityText.list2}</li>
+                        <li>{UsabilityText.list3}</li>
+                        <li>{UsabilityText.list4}</li>
+                    </ul><br />
+                    <p dangerouslySetInnerHTML={{ __html: UsabilityText.par2 }}></p><br />
+                    <div className="video-usability">
+                        <video src={video} controls title="General information about accessibility"></video>
+                    </div>
                         <div className="table-container1">
-                            <h2>Requirements</h2>
+                            <h2>{UsabilityText.tableTitle}</h2>
                          <Table/>
                         </div>
                     

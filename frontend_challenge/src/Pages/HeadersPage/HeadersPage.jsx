@@ -27,6 +27,9 @@ const HeadersPage = () => {
                     <img src={headpic} alt="showing how headers must be displayed" />
                 </div>
             </div>
+            <div className="title-table">
+              A Sequential Guide to Semantic Structure:
+            </div>
             <InfoTable/>
             
             <div className={`failures-test-section ${inView ? 'visible' : ''}`} ref={ref}>

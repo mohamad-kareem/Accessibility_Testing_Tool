@@ -22,8 +22,8 @@ const CheckListPage = () => {
           <div className="test-choices">
               <div className="circles-container">
                   <Circle content="alternative text" onClick={() => handleCircleClick(list1)}/>
-                  <Circle content="Check Headers" onClick={() => handleCircleClick(list2)}/>
-                  <Circle content="Buttons & Links" onClick={() => handleCircleClick(list3)}/>
+                  <Circle content="Buttons & Links" onClick={() => handleCircleClick(list2)}/>
+                  <Circle content="Semantics" onClick={() => handleCircleClick(list3)}/>
               </div>
               <div className="checkbox-test">
                 {selectedList && (
