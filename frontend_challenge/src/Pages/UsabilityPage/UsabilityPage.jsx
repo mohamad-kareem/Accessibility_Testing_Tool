@@ -7,7 +7,6 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCircleInfo } from "@fortawesome/free-solid-svg-icons";
 import Table from "../../Components/Table/Table";
 import video from "../../assets/Digital Accessibility.mp4"
-import info from "../../icons/information.png"
 import {UsabilityText} from "../../Components/TextContent"
 const UsabilityPage = () => {
   return (
@@ -54,8 +53,6 @@ const UsabilityPage = () => {
                             <p><FontAwesomeIcon icon={faCircleInfo} /> {UsabilityText.info}</p>
                         </div>
                     </div>
-                 
-
                         <div className="table-container1">
                             <h2>{UsabilityText.tableTitle}</h2>
                             <Table/>

@@ -7,6 +7,7 @@ import { useInView } from 'react-intersection-observer';
 import Section from "../../Components/Section/Section"
 import Section2 from "../../Components/Section2/Section2"
 import Section3 from "../../Components/Section3/Section3"
+import Footer from "../../Components/Footer/Footer"
 const LandingPage = () => {
 
   const [isOpen,setIsOpen]=useState(false)
@@ -40,6 +41,7 @@ const LandingPage = () => {
      <div className={`section2-container ${reach3 ? 'visible' : ''}`} ref={refSection3}>
         <Section3/>
      </div>
+     <Footer/>
 
     </div>
   )
