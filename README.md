@@ -1,4 +1,3 @@
-<img src="./readme/title1.svg"/>
 
 > Hello, world! This is the project’s summary that describes the project plain and simple, limited to the space available. 
 
@@ -27,7 +26,7 @@
 | ![semantics](./readme/wireframes/Semantics.png) | ![usability](./readme/wireframes/usability.png) | ![checklist](./readme/wireframes/images-1.png) | 
 
 | Test | Images |
-| ------ | ------ | ------ | 
+| ------ | ------ | 
 | ![Test](./readme/wireframes/Semantics-1.png) | ![usability](./readme/wireframes/images.png) | 
 
 ### Mockups
@@ -40,7 +39,7 @@
 | ![semantics](./readme/mockups/Semantics-1.png) | ![usability](./readme/mockups/Semantics-2.png) | ![checklist](./readme/mockups/images-1.png) | 
 
 | Test | Images |
-| ------ | ------ | ------ | 
+| ------ | ------ |
 | ![Test](./readme/mockups//images.png) | ![usability](./readme/mockups//usability.png) | 
 
 
